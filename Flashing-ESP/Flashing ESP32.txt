@@ -1,0 +1,9 @@
+Link to instructions and micropython download: https://micropython.org/download/ESP32_GENERIC/
+
+Must install esptool library. For Python the command is "pip install esptool".
+
+Commands:
+esptool --port """PORTNAME""" erase-flash
+esptool --port COM3 --baud 460800 write-flash 0x1000 "C:\Users\alexc\Desktop\ESP 32\ESP32_GENERIC-20250415-v1.25.0.bin"
+
+
